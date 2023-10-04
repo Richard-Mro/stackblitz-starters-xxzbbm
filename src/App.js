@@ -59,13 +59,17 @@ export default function App() {
       Month: {getMonth()}
       <br />
       <input type="text" onChange={handleChange} />
+     
       <button
         onClick={() => {
           setValue(input);
         }}
       >
         Change The World
+        
       </button>
+      <br/>
+      <br/>
       <button onClick={() => addDay(1)}>Add 1 Day</button>
       <button onClick={() => addDay(7)}>Add 1 Week</button>
       <button onClick={() => addMonth(1)}>Add 1 Month</button>
